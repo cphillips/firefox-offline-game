@@ -328,6 +328,8 @@ Runner.prototype = {
 
     window.addEventListener(Runner.events.RESIZE,
         this.debounceResize.bind(this));
+    
+    this.play();
   },
 
   /**
